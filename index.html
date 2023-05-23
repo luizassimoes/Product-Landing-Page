@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Course</title>
+
+    <link 
+      rel="stylesheet" 
+      href="styles.css" 
+    />    
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/2560px-FreeCodeCamp_logo.svg.png" id="header-img">
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#video" class="nav-link">How it works</a></li>
+          <li><a href="#purchase" class="nav-link">Purchase</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="coverer"></div>
+    <main>
+      <h1 class="cta">Join the FRONT END team</h1>
+      <form class="put-email" id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Subscribe for more news</h2>
+        <input type="email" class="email" id="email" name="email" placeholder=" example@email.com"  required/>
+        <input type="submit" value="Submit" id="submit" action="https://www.freecodecamp.com/email-submit" /> 
+      </form>
+    </main>
+    <div class="features" id="features">
+      <div class="sub-features">
+        <img src="https://cdn-icons-png.flaticon.com/512/29/29515.png"><p class="features-text">Learn HTML from the beginning with professional teachers and intuitive lessons.</p>
+      </div>
+      <div class="sub-features">
+        <img src="https://cdn-icons-png.flaticon.com/512/29/29600.png"><p class="features-text">Understand the importance of CSS, Flexbox, Grid, colors and all there is to know.</p>
+      </div>
+      <div class="sub-features">
+        <img src="https://cdn-icons-png.flaticon.com/512/46/46105.png">     
+        <p class="features-text">Make your interface interactive by learning JavaScript and all its secrets.</p>
+      </div>
+    </div>
+    <div class="video">
+      <iframe width="420" height="315"src="https://www.youtube.com/embed/RGOj5yH7evk" id="video"></iframe>
+    </div>
+    <div class="purchase" id="purchase">
+      <div class="packs">
+        <div class="pack">
+          <h3>HTML</h3>
+          <p>Product details</p>
+          <p class="preco">R$ 100,00</p>
+          <button type="button">Buy now</button>
+        </div>
+        <div class="pack">
+          <h3>HTML + CSS</h3>
+          <p>Product details</p>
+        <p class="preco">R$ 200,00</p>
+        <button type="button">Buy now</button>
+      </div>
+        <div class="pack">
+          <h3>HTML + CSS + JavaScript</h3>
+          <p>Product details</p>
+          <p class="preco">R$ 300,00</p>
+          <button type="button">Buy now</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="footer">
+        All media was taken from the internet, everything is fictional and no copyrights are being used.
+      </footer>
+    </footer>
+  </body>
+</html>
