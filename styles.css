@@ -1,6 +1,7 @@
-@media {
+@media (prefers-reduced-motion: no-preference) {
   * {
-    scroll-behavior: smooth;}
+    scroll-behavior: smooth;
+  }
 }
 
 *,
