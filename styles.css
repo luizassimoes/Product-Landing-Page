@@ -1,5 +1,6 @@
 @media {
-  *{scroll-behavior: smooth;}
+  * {
+    scroll-behavior: smooth;}
 }
 
 *,
@@ -160,6 +161,10 @@ img {
   height: 200px;
   width: 200px;
   background-color: ghostwhite;
+}
+
+.pack:hover {
+  background-color: #fcf4b0;
 }
 
 h3 {
